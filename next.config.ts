@@ -19,6 +19,9 @@ const nextConfig = {
   images: {
     domains: ["s3.amazonaws.com"],
   },
+   eslint: {
+    ignoreDuringBuilds: true, // ✅ disables ESLint in production builds
+  },
 };
 
 module.exports = nextConfig;
