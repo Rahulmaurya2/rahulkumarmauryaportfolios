@@ -1,9 +1,8 @@
 import React from "react";
 import ChromaGrid from "../SingleFileComponent/ChromaGrid";
 import SplitText from "../SingleFileComponent/SplitText";
-import CertDigitalImage from "../../../../public/assets/certDigital.png"; // Assuming you have an image for CertDigital
 
-const ProjectSection: React.FC<{}> = () => {
+const ProjectSection = () => {
   const items = [
     {
       image:
